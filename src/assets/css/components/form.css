@@ -1,0 +1,31 @@
+/* FORMS */
+
+.auth-input {
+  @apply bg-white-grayish text-dark-color text-xs md:text-sm w-full py-2 outline-none rounded-sm shadow-sm;
+}
+
+.input-default, 
+.input-search {
+  @apply w-full shadow-md text-xs md:text-sm py-2 px-2 outline-blue-sky caret-dark-color transition ease-in;
+}
+
+.input-default {
+  @apply bg-white-grayish;
+}
+
+.input-search {
+  @apply bg-white;
+}
+
+.scrollbar::-webkit-scrollbar {
+  @apply w-2 h-1;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-red-color rounded-lg;
+}
+
+.ck-editor__editable_inline p
+{
+  @apply text-xs md:text-sm;
+}

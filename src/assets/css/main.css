@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import './components/button.css';
+@import './components/form.css';
+
+@import './layouts/footer.css';
+
+@import './animations.css'; 
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+  @apply bg-blue-sky;
+}

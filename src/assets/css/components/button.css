@@ -1,0 +1,50 @@
+/* BUTTON */
+
+.button {
+  @apply w-full text-sm md:text-base px-3 py-2 rounded-sm shadow-md;
+}
+
+.button-dark {
+  @apply bg-dark-color text-blue-sky;
+}
+
+.button-red {
+  @apply bg-red-color text-white;
+}
+
+.button-gray {
+  @apply bg-white-grayish text-dark-color;
+}
+
+.auth-router-login,
+.auth-router-register {
+  @apply text-dark-color dark:text-white-grayish text-lg md:text-2xl text-center font-bold uppercase;
+}
+
+.auth-router-login.router-link-active {
+  @apply text-blue-sky;
+}
+
+.auth-router-register.router-link-active {
+  @apply text-red-color;
+}
+
+.sidebar-link {
+  @apply flex items-center text-dark-grayish hover:bg-dark-color hover:text-white border-l-4 border-pale-blue p-2 my-2 ml-2 rounded-sm transition ease-in;
+}
+
+.sidebar-link.router-link-active {
+  @apply border-blue-sky bg-dark-color text-white;
+}
+
+.sidebar-link > span {
+  @apply text-base mx-4 font-light;
+}
+
+.profile-link {
+  @apply text-dark-color dark:text-dark-color hover:bg-dark-color hover:dark:bg-white hover:bg-opacity-10 hover:text-blue-sky p-2 rounded-sm;
+}
+
+.profile-link.router-link-active {
+  @apply text-white dark:text-dark-color bg-dark-color dark:bg-white;
+}

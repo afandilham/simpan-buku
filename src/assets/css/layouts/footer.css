@@ -1,0 +1,29 @@
+/* FOOTER */
+
+.footer {
+  @apply absolute bottom-0 left-0 w-full flex justify-center items-center p-4;
+}
+
+.footer.login {
+  @apply bg-dark-color dark:bg-blue-sky;
+}
+
+.footer.register {
+  @apply bg-red-color;
+}
+
+.footer > a svg.login {
+  @apply text-red-color;
+}
+
+.footer > a svg.register {
+  @apply text-white;
+}
+
+.footer > span.login {
+  @apply text-blue-sky dark:text-dark-color;
+}
+
+.footer > span.register {
+  @apply text-white;
+}
